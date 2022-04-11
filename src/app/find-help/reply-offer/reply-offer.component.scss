@@ -22,9 +22,10 @@
   }
 
   .show-number {
-    cursor: pointer;
     font-weight: bold;
-    text-decoration: none;
     color: inherit;
+    padding: 0;
+    background: none;
+    border: none;
   }
 }

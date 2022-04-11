@@ -10,7 +10,9 @@
           {{ "REPLY_MESSAGE_FORM" | translate }}
           <span *ngIf="helpersPhoneNumber"
             >{{ "REPLY_MESSAGE_PHONE" | translate }}
-            <a class="show-number" (click)="onPhoneNumberClick(container)">{{ "SHOW_PHONE" | translate }}</a></span
+            <button class="show-number" (click)="onPhoneNumberClick(container)">
+              {{ "SHOW_PHONE" | translate }}
+            </button></span
           >
         </p>
       </div>
